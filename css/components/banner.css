@@ -1,0 +1,42 @@
+@import url("./primary-btn.css");
+@import url("../animations/fade-in.css");
+
+#banner {
+    height: calc(100vh - var(--header-heigth));
+    background-image: url("../../img/banner.jpg");
+    background-size: cover;
+    background-position-x: center;
+}
+
+#banner-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #f0f0f0;
+    padding: 15%;
+    text-align: center;
+}
+
+#banner-shadow {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000aa;
+}
+
+#banner {
+    font-size: 2rem;
+}
+
+#banner-content h1,
+#banner-content p {
+    cursor: default;
+}
+
+#banner-content {
+    animation: fade-in 1s;
+}
