@@ -1,0 +1,38 @@
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+#header-logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    background-color: var(--secondary-color);
+    height: 50px;
+    width: 70px;
+    border-radius: 20px;
+}
+
+#page-name {
+    font-weight: var(--primary-font-weight);
+    padding-left: 10px;
+    color: var(--primary-text-color);
+}
+
+#burger-menu {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#burger-menu span {
+    display: block;
+    height: 20%;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
