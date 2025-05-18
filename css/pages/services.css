@@ -1,12 +1,22 @@
 @import url("../styles.css");
 @import url("../components/more-info-card.css");
+@import url("../components/primary-btn.css");
 
 #services {
     margin-top: 20px;
+    text-align: center;
 }
 
-#services h1 {
+#page-description {
     text-align: center;
-    font-size: 2rem;
-    margin: 40px 0 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.primary-btn {
+    margin: 20px auto;
+    font-size: 1.5rem;
 }
