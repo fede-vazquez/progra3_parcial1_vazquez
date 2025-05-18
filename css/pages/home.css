@@ -58,6 +58,10 @@
         scroll-snap-align: start;
     }
 
+    .card:hover {
+        transform: none;
+    }
+
     .card-img {
         width: 65%;
         border-radius: 0;

@@ -22,6 +22,13 @@
     max-width: 400px;
 
     max-height: 500px;
+
+    transition: all 400ms;
+}
+
+.card:hover {
+    transform: scale(1.01) translateY(-10px);
+    box-shadow: var(--box-shadow-hover);
 }
 
 .card-img {
