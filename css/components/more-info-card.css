@@ -1,0 +1,91 @@
+.card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: auto;
+    align-items: center;
+
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 0 20px #999;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+    width: 100%;
+    max-width: 400px;
+
+    max-height: 500px;
+}
+
+.card-img {
+    position: relative;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #00000088;
+}
+
+.card-img-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-container img {
+    width: 100%;
+}
+
+.card-img-content {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 1.5rem;
+    color: #f0f0f0;
+
+    height: 250px;
+}
+
+.card-more-info {
+    background-color: var(--terciary-color);
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    font-size: 1.3rem;
+    padding: 20px 10px;
+}
+
+.card-more-info h4 {
+    margin-bottom: 20px;
+}
+
+.our-team-list {
+    overflow-x: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    max-width: 100%;
+}
+
+.team-member {
+    word-wrap: break-word;
+}
+
+.team-member img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: auto;
+}
