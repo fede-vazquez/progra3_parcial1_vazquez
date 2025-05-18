@@ -2,6 +2,7 @@
 @import url("../animations/fade-in.css");
 
 #banner {
+    width: 100%;
     height: calc(100vh - var(--header-heigth));
     background-image: url("../../img/banner.jpg");
     background-size: cover;
