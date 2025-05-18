@@ -14,6 +14,7 @@ form {
     background-color: var(--terciary-color);
     padding: 20px;
     border-radius: 20px;
+    box-shadow: var(--box-shadow);
 }
 
 label {

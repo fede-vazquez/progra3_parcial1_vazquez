@@ -9,13 +9,13 @@
 }
 
 .card {
-    box-shadow: 0 0 10px #333;
+    box-shadow: var(--box-shadow);
     border-radius: 20px;
     max-width: 500px;
 }
 
 .card-img {
-    min-height: 250px;
+    height: 250px;
 
     position: relative;
     overflow: hidden;

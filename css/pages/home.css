@@ -40,7 +40,7 @@
         overflow-x: scroll;
 
         scroll-snap-type: x mandatory;
-        box-shadow: 0 0 20px #333;
+        box-shadow: var(--box-shadow);
         border-radius: 20px;
 
         flex-wrap: nowrap;
