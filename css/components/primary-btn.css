@@ -1,10 +1,14 @@
 .primary-btn {
+    all: unset;
+
     background-color: var(--secondary-color);
     color: #f0f0f0;
     text-decoration: none;
     padding: 10px 40px;
     border-radius: 20px;
-    display: inline-block;
+    display: block;
+    width: fit-content;
+    cursor: pointer;
 }
 
 .primary-btn:hover {

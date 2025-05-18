@@ -1,0 +1,43 @@
+@import url("../styles.css");
+@import url("../components/primary-btn.css");
+
+section {
+    margin: 30px auto;
+    width: 90%;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    gap: 15px;
+    background-color: var(--terciary-color);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+label {
+    margin-top: 10px;
+    text-align: start;
+    font-weight: bold;
+    display: block;
+    font-size: 1.3rem;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.primary-btn {
+    margin: auto;
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
