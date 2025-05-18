@@ -16,6 +16,19 @@
     display: none;
 }
 
+@media (min-width: 768px) {
+    .card {
+        width: calc(50% - 25px);
+    }
+
+    .card-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        max-width: 1000px;
+    }
+}
+
 @media (min-width: 1440px) {
     #services {
         width: 100%;
@@ -24,12 +37,14 @@
 
     .card-list {
         width: 100%;
-        flex-direction: row;
         overflow-x: scroll;
 
         scroll-snap-type: x mandatory;
         box-shadow: 0 0 20px #333;
         border-radius: 20px;
+
+        flex-wrap: nowrap;
+        max-width: 1440px;
     }
 
     .card {
