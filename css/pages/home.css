@@ -28,6 +28,8 @@
         overflow-x: scroll;
 
         scroll-snap-type: x mandatory;
+        box-shadow: 0 0 20px #333;
+        border-radius: 20px;
     }
 
     .card {

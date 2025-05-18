@@ -4,6 +4,7 @@ header {
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 5px 0;
     z-index: 1;
     height: var(--header-heigth);
@@ -66,7 +67,42 @@ header nav ul li {
 }
 
 header nav ul li a {
-    font-weight: bold;
     color: #f0f0f0;
     text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    #burger-menu {
+        display: none;
+    }
+
+    header nav {
+        height: fit-content;
+        background-color: transparent;
+        position: static;
+        width: fit-content;
+    }
+
+    header nav ul li {
+        transition: all 400ms;
+        padding: 0;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    header nav ul {
+        display: flex;
+        padding: 0 10px;
+    }
+
+    header nav ul li a {
+        color: var(--primary-text-color);
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
+    header nav ul li:hover {
+        padding: 5px 15px;
+        background-color: var(--primary-color-hover);
+    }
 }
