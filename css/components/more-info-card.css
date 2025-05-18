@@ -70,11 +70,10 @@
 }
 
 .our-team-list {
-    overflow-x: auto;
+    overflow: auto;
     display: flex;
     justify-content: space-evenly;
-    gap: 50px;
-    max-width: 100%;
+    gap: 30px;
 }
 
 .team-member {
@@ -126,6 +125,17 @@
 
     .team-member {
         width: 33%;
-        line-height: 1rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .card-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .card {
+        width: calc(50% - 50px);
     }
 }
