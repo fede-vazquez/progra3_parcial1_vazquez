@@ -9,8 +9,11 @@
     display: block;
     width: fit-content;
     cursor: pointer;
+
+    transition: all 400ms;
 }
 
 .primary-btn:hover {
     background-color: var(--secondary-color-hover);
+    transform: scale(1.1);
 }

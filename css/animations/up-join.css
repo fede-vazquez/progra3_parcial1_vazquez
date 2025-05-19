@@ -1,0 +1,8 @@
+@keyframes up-join {
+    from {
+        transform: translateY(-80px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}

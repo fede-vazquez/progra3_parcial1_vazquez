@@ -2,6 +2,9 @@
 @import url("../components/more-info-card.css");
 @import url("../components/primary-btn.css");
 
+@import url("../animations/fade-in.css");
+@import url("../animations/up-join.css");
+
 #services {
     margin-top: 20px;
     text-align: center;
@@ -10,6 +13,15 @@
 #page-description {
     text-align: center;
     font-size: 1.5rem;
+}
+
+#page-description p,
+#page-description h1 {
+    animation: fade-in 1s;
+}
+
+#page-description h1 {
+    animation: up-join 1s;
 }
 
 h1 {

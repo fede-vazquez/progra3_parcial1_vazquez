@@ -1,5 +1,6 @@
 @import url("./primary-btn.css");
 @import url("../animations/fade-in.css");
+@import url("../animations/up-join.css");
 
 #banner {
     width: 100%;
@@ -40,4 +41,8 @@
 
 #banner-content {
     animation: fade-in 1s;
+}
+
+h1 {
+    animation: up-join 1s;
 }
